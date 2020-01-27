@@ -1,1 +1,1 @@
-- Refer [Prerequisistes]() documentation to setup tools
+- Refer [Prerequisistes](https://github.com/a2un/sdrsapi/blob/master/Prerequisites.md) documentation to setup tools

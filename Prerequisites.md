@@ -5,3 +5,4 @@
 - database.sql has the sql script to create database named SPDR and an empty table ETFTickers
 - run `mysql -u root -p < database.sql` to execute the script and create database
 - run `sudo snap install postman` to install postman
+- install [sequelize](https://sequelize.org/v3/docs/getting-started/) `npm install --save sequelize` and for mysql dialect `npm install --save mysql`

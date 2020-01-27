@@ -1,0 +1,7 @@
+- plaform linux - Ubuntu 18.04
+- installed nodejs version: 12.xx (LTS) - as in this [link](https://github.com/nodesource/distributions/blob/master/README.md)
+- install [express](http://expressjs.com/en/starter/installing.html) and [express-generator](http://expressjs.com/en/starter/generator.html)
+- create scaffold project using `npx express-generator`
+- database.sql has the sql script to create database named SPDR and an empty table ETFTickers
+- run `mysql -u root -p < database.sql` to execute the script and create database
+- run `sudo snap install postman` to install postman

@@ -5,7 +5,7 @@ var ETFTickers = require('../models/ETFTickers');
 
 /* GET users listing. */
 router.post('/', function(req, res, next) {
-   
+   console.log('request object', req);
   ETFTickers.sync().then(() => {
     ETFTickers.create(
     {

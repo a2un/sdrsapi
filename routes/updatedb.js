@@ -5,15 +5,15 @@ var ETFTickers = require('../models/ETFTickers');
 
 /* GET users listing. */
 router.post('/', function(req, res, next) {
-   console.log('request object', req);
+   console.log('request object', req.body);
   ETFTickers.sync().then(() => {
     ETFTickers.create(
     {
-      Holdings: req.Holdings,
-      Country_Weights: req.Country_Weights,
-      Sector_Weights: req.Sector_Weights,
-      ETF_name: req.ETF_name,
-      Fund_Descr: req.Fund_Descr
+      Holdings: req.body.Holdings,
+      Country_Weights: req.body.Country_Weights,
+      Sector_Weights: req.body.Sector_Weights,
+      ETF_name: req.body.ETF_name,
+      Fund_Descr: req.body.Fund_Descr
     });
   });
 

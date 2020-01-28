@@ -1,1 +1,2 @@
-- Refer [Prerequisistes](https://github.com/a2un/sdrsapi/blob/master/Prerequisites.md) documentation to setup tools
+- Refer [Prerequisistes for development and deployment](https://github.com/a2un/sdrsapi/blob/master/Prerequisites.md) documentation to setup tools
+- An already deployed app is [here](https://sdrs-api.herokuapp.com/)

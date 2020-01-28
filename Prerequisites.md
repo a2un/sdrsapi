@@ -6,3 +6,8 @@
 - run `mysql -u root -p < database.sql` to execute the script and create database
 - run `sudo snap install postman` to install postman
 - install [sequelize](https://sequelize.org/v3/docs/getting-started/) `npm install --save sequelize` and for mysql dialect `npm install --save mysql`
+- install heroku-cli `snap install heroku` ( for Ubuntu 18.04)
+- run `heroku login`. It should launch a browser window and you can login/create a heroku account and login.
+- on the heroku web interface, create a new app named `sdrs-api`
+- run `heroku git:remote -a sdrs-api` in heroku cli
+- connect the sdrs-api on heroku to [github-repo](https://github.com/a2un/sdrsapi)

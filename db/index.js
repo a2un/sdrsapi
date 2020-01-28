@@ -1,9 +1,8 @@
 var Sequelize = require('sequelize');
 
-var sequelize = new Sequelize('SPDR', 'root', 'qweqwe', {
-    host: 'localhost',
-    dialect: 'mysql',
-  
+
+var sequelize = new Sequelize(process.env.CLEARDB_DATABASE_URL, {
+    dialect: 'mysql',  
     pool: {
       max: 5,
       min: 0,
